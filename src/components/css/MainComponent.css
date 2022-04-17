@@ -1,0 +1,85 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url(../../image/main.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* margin-top: -30px; */
+}
+
+.main::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.103));
+    position: absolute;
+    bottom: 0;
+}
+
+.mainTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+.mainTitle .title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 30px;
+    text-shadow: 1px 1px 10px rgb(78, 78, 78);
+}
+
+.mainTitle .p1{
+    font-size: 75px;
+    letter-spacing: 18px;
+    text-shadow: 1px 1px 10px rgb(78, 78, 78);
+}
+
+.mainTitle .p2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 10px rgb(78, 78, 78);
+}
+
+.mainTitle .btn-read{
+    background: none;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid #fff;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-top: 60px;
+    cursor: pointer;
+    outline: none;
+}
+
+.mainTitle .btn-read:hover{
+    background-color: #fff;
+    color: #000;
+    transition: ease-in .5s;
+}
+
+@media only screen and (max-width: 768px){
+    .mainTitle .title{
+        font-size: 1.5rem;
+        /* margin-bottom: -3px; */
+        letter-spacing: 1rem;
+    }
+    .mainTitle .p1{
+        font-size: 3.2rem;
+    }
+    
+    .mainTitle .p2{
+        font-size: 20px;
+        letter-spacing: 5px;
+        text-shadow: 1px 1px 10px rgb(78, 78, 78);
+    }
+}

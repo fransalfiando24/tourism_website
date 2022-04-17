@@ -1,0 +1,74 @@
+.paragliding{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(241, 241, 241);
+    /* margin-top: -20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragliding .paraglidingText{
+    width: 80%;
+    height: 700px;
+    background: url(../../image/paragliding5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* margin-left: 200px; */
+    /* margin-top: 170px; */
+}
+
+.paraglidingText::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.103));
+    position: relative;
+
+}
+
+
+.paraglidingText .textParagliding{
+    width: 40%;
+    margin-top: 160px;
+    margin-left: 100px;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.textParagliding h1{
+    font-size: 60px;
+    color: #f3f3f3;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 768px){
+    .paragliding .paraglidingText{
+        width: 100%;
+        height: 700px;
+    }
+    .paraglidingText .textParagliding{
+        width: 100%;
+        margin-top: 10rem;
+        margin-left: 0; 
+        padding: 1rem;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        font-size: 1.2rem;
+        z-index: 2;
+    }
+    
+    .textParagliding h1{
+        font-size: 3.4rem;
+        color: #f3f3f3;
+        margin-bottom: 2rem;
+    }
+}
