@@ -4,19 +4,19 @@ import About from './pages/About'
 import Facility from './pages/Fasility'
 import Contacts from './pages/Contacts'
 import NavbarComponent from './components/NavbarComponent';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <NavbarComponent/>
-        <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/fasility" component={Facility}/>
-          <Route path="/contacts" component={Contacts}/>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/fasility" element={<Facility/>}/>
+          <Route path="/contacts" element={<Contacts/>}/>
+        </Routes>
       </Router>
     </div>
   );
