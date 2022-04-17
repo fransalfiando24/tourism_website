@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/tourism_website/static/css/main.66e7754b.chunk.css",
+    "main.js": "/tourism_website/static/js/main.80b2400d.chunk.js",
+    "main.js.map": "/tourism_website/static/js/main.80b2400d.chunk.js.map",
+    "runtime-main.js": "/tourism_website/static/js/runtime-main.26cf375e.js",
+    "runtime-main.js.map": "/tourism_website/static/js/runtime-main.26cf375e.js.map",
+    "static/css/2.e846d7cb.chunk.css": "/tourism_website/static/css/2.e846d7cb.chunk.css",
+    "static/js/2.7be5906e.chunk.js": "/tourism_website/static/js/2.7be5906e.chunk.js",
+    "static/js/2.7be5906e.chunk.js.map": "/tourism_website/static/js/2.7be5906e.chunk.js.map",
+    "static/js/3.f19af104.chunk.js": "/tourism_website/static/js/3.f19af104.chunk.js",
+    "static/js/3.f19af104.chunk.js.map": "/tourism_website/static/js/3.f19af104.chunk.js.map",
+    "index.html": "/tourism_website/index.html",
+    "static/css/2.e846d7cb.chunk.css.map": "/tourism_website/static/css/2.e846d7cb.chunk.css.map",
+    "static/css/main.66e7754b.chunk.css.map": "/tourism_website/static/css/main.66e7754b.chunk.css.map",
+    "static/js/2.7be5906e.chunk.js.LICENSE.txt": "/tourism_website/static/js/2.7be5906e.chunk.js.LICENSE.txt",
+    "static/media/MainComponent.css": "/tourism_website/static/media/main.cfb91ad4.jpg",
+    "static/media/ParaglidingComponent.css": "/tourism_website/static/media/paragliding5.51edc0c7.jpg",
+    "static/media/s1.ff71686a.jpg": "/tourism_website/static/media/s1.ff71686a.jpg",
+    "static/media/s2.87ab508e.jpg": "/tourism_website/static/media/s2.87ab508e.jpg",
+    "static/media/s3.941ffdf0.jpg": "/tourism_website/static/media/s3.941ffdf0.jpg",
+    "static/media/view2.76a56345.jpg": "/tourism_website/static/media/view2.76a56345.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26cf375e.js",
+    "static/css/2.e846d7cb.chunk.css",
+    "static/js/2.7be5906e.chunk.js",
+    "static/css/main.66e7754b.chunk.css",
+    "static/js/main.80b2400d.chunk.js"
+  ]
+}
