@@ -24,9 +24,9 @@ function ContactComponent() {
                         Indonesia<br/>
                     </div>
                     <div>
-                        Mobile: +62 852 37998077 <br/>
-                        Phone: +62 361 4792778<br/>
-                        Fax: +62 361 4792778<br/>
+                        Mobile: +62 888 8888888 <br/>
+                        Phone: +62 888 8888888<br/>
+                        Fax: +62 888 8888888<br/>
                         Email: puncaklawang@resort.com
                     </div>
                 </div>
